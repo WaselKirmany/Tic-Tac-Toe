@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:#81b29a;
+    text-align: center;
+
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.8vmin;
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 9vmin;
+    color:#f5e6c1;
+    background-color: #f2cc8f;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .2s ease-in-out 0s;
+}
+.box:hover{
+    height:20vmin;
+    width:20vmin;
+    background-color: #f3c67c;
+}
+.reset{
+    padding: 1rem;
+    border-radius: 1rem ;
+    border:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    background-color:#343434; 
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    color:#ffe8d6;
+    transition: all .2s ease-in-out 0s;
+
+}
+
+.reset:active{ 
+    background-color:#242424;
+    font-size: 1rem;
+}
+
+#newgame{
+    padding: 1rem;
+    border-radius: 1rem ;
+    border:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    background-color:#343434; 
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    color:#ffe8d6;
+    transition: all .1s ease-in-out 0s;
+}
+
+#newgame:active{
+    background-color:#242424;
+    font-size: 1rem;
+}
+#msg{
+    font-size: 8vmin;
+    color:#3d405b;
+    font-family: poppins;
+}
+/* #cong{
+    font-size: 8vmin;
+    color:#3d405b;
+    font-family: poppins;
+} */
+.msg-container{
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.hide{
+    display: none;
+}
+
+
+#heading{
+    color:#3d405b;
+    font-family: poppins;
+    font-size: 50px;
+    margin: 15px;
+    transition: all .3s ease-in-out ;
+}
+#heading:hover{
+    font-size: 60px;
+    color:#2f3145;
+}
+.X{
+    color: #2a9d8f;
+}
+.O{
+    color:#e76f51;
+}
+a{
+   text-decoration: none;
+}
